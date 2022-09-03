@@ -74,3 +74,24 @@ body, html{
   border-bottom-left-radius:5px;
   border-bottom-right-radius:5px;
 }
+/* =================== */
+/*   PROJECTS SECTION  */
+/* =================== */
+#projects{
+  background-color:#ddd;
+  padding: 35px 0;
+}
+.box img{
+  max-width:100%;
+  height:auto;
+}
+.box{
+  background-color:white;
+}
+.box p{
+  padding: 15px;
+}
+footer{
+  text-align: center;
+  padding-top: 35px;
+}
