@@ -33,5 +33,18 @@ body, html{
   cursor:pointer;
 }
 #name button:focus{
-  outline: none;
+  outline:none;
+}
+/* =================== */
+/*    BANNER SECTION   */
+/* =================== */
+#banner{
+  background-color: #4C5364;
+}
+#banner figure{
+  margin: 0 auto;
+}
+#banner img{
+  max-width: 100%;
+  height: auto;
 }
