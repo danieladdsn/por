@@ -549,7 +549,12 @@ ul.toc {
 	}
 
 	#illustration img {
-		padding-top: 40px;
+		width: 100%;
+		min-width: auto;
+		padding-top: 80px;
+		padding-bottom: 50px;
+		padding-left: 0;
+		padding-right: 0px;
 	}
 
 	.tagline {
