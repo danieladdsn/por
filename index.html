@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en"> 
  <head>
 	<title>Daniel Addison</title>
 	<link rel="icon" href="assets/img/portfolio/redketchup/android-chrome-512x512.png" type="image/x-icon" />
@@ -6,23 +7,23 @@
 		<meta name="description" content="Personal Website">
 		<meta name="keywords" content="daniel addison" />
 		<meta name="author" content="Daniel Addison" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link href="assets/css/style.css" rel="stylesheet">
 			<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Rokkitt|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'> 
 		<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>   
-		<script type="text/discourse-plugin" version="0.8.42">
-		api.decorateCookedElement(post =>
+	</head>
+	<script type="text/discourse-plugin" version="0.8.42">
+	api.decorateCookedElement(post =>
 		post.querySelectorAll('div[data-theme-iframe="no-scroll"] iframe').forEach(iframe => {
 		iframe.setAttribute('scrolling', 'no');
 		}),
-				{ id: 'no-scroll' }
+		{ 
 		id: 'iframe-decorator',
 		onlyStream: true,
 		}
-		);
-		</script>
-	</head>
+	);
+	</script>
 
 	<body>
 		<!-- Navigation -->
@@ -49,7 +50,7 @@
 			</div>
 			
 			<!-- Essentials Illustration -->
-			<div id="illustration"><center><img src="assets/img/big.png"></center></div>
+			<div id="illustration"><center><img alt="illustration image" src="assets/img/big.png"></center></div>
 
 			
 			<!-- About Me -->
@@ -78,11 +79,11 @@
 							&gt; Daniel.resume<br/>
 							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="assets/danieladdison.pdf">danieladdison.pdf</a>"<br/><br/></span>
 							&gt; Daniel.thoughts<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; ["<a target="_blank" href="http://www.twitter.com/danieladdsn">@danieladdsn</a>",
-								 "<a target="_blank" href="https://medium.com/@danieladdsn">https://medium.com/@danieladdsn</a>",
-								 "<a target="_blank" href="https://music.apple.com/profile/danieladdsn">apple music</a>"]<br/><br/></span>
+							<span class="answer">&nbsp;&nbsp;=&gt; ["<a target="_blank" rel="noopener" href="http://www.twitter.com/danieladdsn">@danieladdsn</a>",
+								 "<a target="_blank" rel="noopener" href="https://medium.com/@danieladdsn">https://medium.com/@danieladdsn</a>",
+								 "<a target="_blank" rel="noopener" href="https://music.apple.com/profile/danieladdsn">apple music</a>"]<br/><br/></span>
 							&gt; Daniel.email<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:daniel9addison.com">daniel9addison.com</a>"<br/><br/></span>
+							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:daniel9addison@gmail.com">daniel9addison@gmail.com</a>"<br/><br/></span>
 						</div>
 					</div>
 				</div>
@@ -93,14 +94,14 @@
 			<div id="resume"><div class="inner">
 				<p class="tagline">Résumé</p>
 				<!-- Résumé : Education -->
-				<p class="section-tagline" style="text-align:left;">Education</p>
+				<p class="section-tagline">Education</p>
 				<!-- Résumé : Education : Marist College -->
 				<p>
-					<a target="_blank" href="https://www.marist.edu"><img class="icon" src="assets/img/companies/marist.png"></a><b>Marist College</b>
+					<a target="_blank" rel="noopener" href="https://www.marist.edu"><img title="marist" class="icon" src="assets/img/companies/marist.png"></a><b>Marist College</b>
 					<span class="right"><i>2017 - 2021</i></span><br/><b>Computer Science, B.S.</b>
 					<span class="right"><i>Poughkeepsie, NY</i></span><br/><br/>
 						Relevant Coursework:<br/>
-						<ul style="list-style:circle;">
+						<ul class="ul">
 									<li>Introduction to Programming</li>
 									<li>Software Development</li>
 									<li>Software Systems and Analysis</li>
@@ -114,41 +115,46 @@
 				<br/><br/>
 
 				<!-- Résumé : Work Experience -->
-				<p class="section-tagline" style="text-align:left;">Work Experience</p>
+				<p class="section-tagline">Work Experience</p>
 
 				<!-- Résumé : Work Experience : Snap Inc. -->
 				<p>
-					<a target="_blank" href="https://snap.com/en-US"><img class="icon" src="assets/img/companies/snap.png"></a><b>Snap Inc.</b>
+					<a target="_blank" href="https://snap.com/en-US" rel="noopener"><img title="snap" class="icon" src="assets/img/companies/snap.png"></a><b>Snap Inc.</b>
 					<span class="right"><i>2021 · Less than a year</i></span><br/>
 					<b>Software Engieer Intern</b>
 					<span class="right"><i>Santa Monica, CA</i></span><br/><br/>
-																		Working directly with designers, engineers, user researchers, and product managers to create, maintain, and transition
-																		the prototype 'Unity' an original socially conscious feature Pitched to Julie Henderson, Snap Inc’s CCO.<br/><br/>
+																		Joined Software engineering intern team in a scholastic participation with Snap Inc. As a result, learned a wide range of skills in 
+																		full-stack web and mobile development, with HTML, CSS, JavaScript, React, React Native, Firebase, and Firestore. 
+																		Developed an original socially conscious feature that highlights nonprofits on Snap Map with React Native frontend, 
+																		demoed with Apple/GoogleMaps "unity", and pitched to Julie Henderson, Snap Inc’s CCO.<br/><br/>
 					<span class="skill">HTML</span><span class="skill">SASS/CSS</span><span class="skill">JS</span><span class="skill">Python</span><span class="skill">Git</span>
 															<span class="skill design">Figma</span>
 				</p>
 				<br/>
 				<!-- Résumé : Work Experience : Cornerstone OnDemand -->
 				<p>
-					<a target="_blank" href="https://www.cornerstoneondemand.com"><img class="icon" src="assets/img/companies/cstone.png"></a><b>Cornerstone OnDemand</b>
+					<a target="_blank" href="https://www.cornerstoneondemand.com" rel="noopener"><img title="cstone" class ="icon" src="assets/img/companies/cstone.png"></a><b>Cornerstone OnDemand</b>
 					<span class="right"><i>2021 · Less than a year</i></span><br/>
 					<b>Technical Analyst Intern</b>
 					<span class="right"><i>New York, NY</i></span><br/><br/>
-																		Technical support and troubleshooting services to corporate end-users around the world, maintenance and (re)provisioning
-																		of a wide variety of hardware devices, software & cloud administration, system configuration documentation, and aid in
-																		the development of various technical workflows.<br/><br/>
+																		Joined a global Corporate Technology Services team responsible for managing all internal corporate systems affecting 
+																		all aspects of the business. Assisted with onboarding and offboarding, as well as providing on-site and remote technical 
+																		support for all Cornerstone employees. Worked on strategic projects with cross-functional teams to improve processes and 
+																		overall company alignment. <br/><br/>
 					<span class="skill">Linux</span><span class="skill">Windows</span><span class="skill">Active Directory</span><span class="skill">Microsoft Office Suite</span>
 					<span class="skill">ServiceNow</span>
 				</p>
 				<br/>
 				<!-- Résumé : Work Experience : Mission Cloud Services Inc. -->
 				<p>
-					<a target="_blank" href="https://www.missioncloud.com"><img class="icon" src="assets/img/companies/mission.png"></a><b>Mission</b>
+					<a target="_blank" href="https://www.missioncloud.com" rel="noopener"><img title= "mission" class="icon" src="assets/img/companies/mission.png"></a><b>Mission</b>
 					<span class="right"><i>2022 - Present · 9 mos</i></span><br/>
 					<b>Cloud Engineer Intern</b>
 					<span class="right"><i>Beverly Hills, CA</i></span><br/><br/>
-																		Joined cloud operation team to focus on building skills in tools development, customer facing skills, and custom cloud
-																		solutions for clients through a wide range of projects and the rotational structure.<br/><br/>
+																		Joined the cloud operation Intern team to learn how to coordinate deliverables from a technical perspective, ensuring 
+																		compliance to SDLC activities and standards in accordance with industry best practices. Drive the architecture's 
+																		development in order to achieve business goals, such as automating cloud-native technologies, deploying applications, 
+																		and provisioning infrastructure. <br/><br/>
 					<span class="skill">Linux</span><span class="skill">Bash</span><span class="skill">Git</span><span class="skill">AWS</span><span class="skill">Python</span>
 					<span class="skill">Terraform</span><span class="skill">Docker</span><span class="skill">Kubernetes</span>
 				</p>
@@ -160,7 +166,7 @@
 				<p class="tagline">Work + Fun</p>
 		
 				<div class="portfolio-thumb portfolio-big">
-					<a href="https://github.com/danieladdsn/Unity"><img src="assets/img/portfolio/sea.png"></a>
+					<a href="https://github.com/danieladdsn/Unity"><img title="sea" src="assets/img/portfolio/sea.png"></a>
 					<p class="description"><b>Unity</b>&nbsp;&nbsp; Led a small team of developers, designers, and marketers with BIPOC non-profit Community Coalition. Built feature 
 						that highlights nonprofits on Snap Map with React Native frontend, demoed with Apple/GoogleMaps. Developed Snapchat clone with
 						user authentication and group chats using Google Firebase Firestore & Auth backend. Pitched prototype Snapchat feature
@@ -168,13 +174,13 @@
 				</div>
 				<div class="row">
 					<div class="portfolio-thumb">
-						<a href="https://danieladdsn.github.io/Tobi-Mask/"><img src="assets/img/portfolio/21.png"></a>
+						<a href="https://danieladdsn.github.io/Tobi-Mask/"><img title="tobi" src="assets/img/portfolio/21.png"></a>
 						<p class="description"><b>Snap Lens</b>&nbsp;&nbsp; Developed a Snapchat face filter "Tobi Mask," a deep learning Naruto-inspired Snap Lens can detect Facial Keypoints, 
 																					leveraging JavaScript, JSlibraries p5.js, ml5.js, and Google Teachable Machine to animate four augmented reality effects that change 
 																					depending on the user's face expression, and head rotation.</p>
 					</div>
 					<div class="portfolio-thumb">
-						<a href="https://github.com/MaristGormanly/DAddison-project"><img src="assets/img/portfolio/otrail.gif"></a>
+						<a href="https://github.com/MaristGormanly/DAddison-project"><img title="otrail" src="assets/img/portfolio/otrail.gif"></a>
 						<p class="description"><b>Oregon Trail</b>&nbsp;&nbsp; Created a web based re-imagining of “The Oregon Trail” game using HTML, JavaScript, and CSS. Users will travel the 
 																		trail, encountering forts and rivers along the way. Hunt and rest to replenish supplies. Party members may perish on the journey, but as long as 
 																		at least one survives to Oregon, the user will win.</p>
@@ -182,12 +188,12 @@
 				</div>						
 				<div class="row">
 					<div class="portfolio-thumb">
-						<a href="https://github.com/danieladdsn/CMPT120-Project"><img src="assets/img/portfolio/mac.png"></a>
+						<a href="https://github.com/danieladdsn/CMPT120-Project"><img title="mac" src="assets/img/portfolio/mac.png"></a>
 						<p class="description"><b>Zork</b>&nbsp;&nbsp; Developed a text-based adventure game “Zork'' with a graphical interface in Python as a final project for Intro to
 																		Programing course at Marist college.</p>
 					</div>
 					<div class="portfolio-thumb">
-						<a href="https://projects.invisionapp.com/share/VFU3B96HARX#/screens/387201093"><img src="assets/img/portfolio/wav.png"></a>
+						<a href="https://projects.invisionapp.com/share/VFU3B96HARX#/screens/387201093"><img title="wav" src="assets/img/portfolio/wav.png"></a>
 						<p class="description"><b>Wav Music App</b>&nbsp;&nbsp; Led a team of three designers in the design and successful implementation of a multi-platform music app “Wav”
 																		using Invision Studio, Photoshop, and Figma.
 																		<!-- <a target="_blank" href="">here</a>. -->
@@ -196,29 +202,26 @@
 				</div>
 				<div class="row">
 					<div class="portfolio-thumb">
-						<a href=""><img src="assets/img/portfolio/ard.png"></a>
+						<a href=""><img title="ard" src="assets/img/portfolio/ard.png"></a>
 						<p class="description"><b>Arduino</b>&nbsp;&nbsp; Built an Arduino MIDI Controller that generates and transmits MIDI data to MIDI enabled 
 							devices.</p>
 					</div>
-					<div class="portfolio-thumb data-theme-iframe="no-scroll">
-						<iframe id="innerFrame" name="innerFrame" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads" 
-							src="https://danieladdsn.github.io/Interactive-Brush/" allowfullscreen="" frameborder="0" width="100%" marginwidth="0" height="460.8" marginheight="0"
-							scrolling="no" style="overflow: hidden"> 
-						</iframe>
+					<div class="portfolio-thumb" data-theme-iframe="no-scroll"> 
+						<iframe title="pbrush" id="canvas" src="https://danieladdsn.github.io/Interactive-Brush/"></iframe>
 						<p class="description"><b>Interactive brush</b>&nbsp;&nbsp; Created an “Interactive brush” with p5.js that responds to users’ cursor positioning.
 						</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="portfolio-thumb">
-						<a href="https://github.com/briangormanly/outfox"><img src="assets/img/portfolio/outfox.png"></a>
+						<a href="https://github.com/briangormanly/outfox"><img title="outfox" src="assets/img/portfolio/outfox.png"></a>
 						<p class="description"><b>Outfox</b>&nbsp;&nbsp; Project Manager in a senior capping project “Outfox,” where I led a team of 12 to create an open 
 							source learning management system for students, individuals, and businesses, with the ability to upload, share resources, and content. 
 						<!-- <a target="_blank"href="">here</a>. -->  
 						</p>
 					</div>
 					<div class="portfolio-thumb">
-						<a href="https://snap-engineering-academy-2021.github.io/food-town/danny/index.html"><img src="assets/img/portfolio/eat2.png"></a>
+						<a href="https://snap-engineering-academy-2021.github.io/food-town/danny/index.html"><img title="eat" src="assets/img/portfolio/eat2.png"></a>
 						<p class="description"><b>Chicken Enchiladas Recipe</b>&nbsp;&nbsp; Coded a “Food Recipe” webpage that show detailed step-by-step procedures on 
 							how to cook my favorite dinner dish chiken enchiladas with using HTML, CSS, and JavaScript.
 						</p>
@@ -230,14 +233,13 @@
 				© 2021 Daniel Addison. 
 				<span class="right">
 					<a target="_blank" href="mailto:daniel9addison.com">Email</a>&nbsp;//&nbsp;
-					<a target="_blank" href="https://www.linkedin.com/in/danieladdsn/">LinkedIn</a>&nbsp;//&nbsp;
-					<a target="_blank" href="http://www.twitter.com/danieladdsn">Twitter</a>
+					<a target="_blank" rel="noopener" href="https://www.linkedin.com/in/danieladdsn/">LinkedIn</a>&nbsp;//&nbsp;
+					<a target="_blank" rel="noopener" href="http://www.twitter.com/danieladdsn">Twitter</a>
 				</span>
 			</div></div>
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 			<script src="assets/js/jquery.fixedTOC.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
-			<script src="script.js"></script>
 			<script>
 			// call the plugin on the "#toc" element
 			$('#toc').fixedTOC({
@@ -250,7 +252,8 @@
 			});
 			</script>
 			<!-- function for the canvas  -->
-			<script>function loadGapi(){
+			<script>
+			function loadGapi(){
 				var loaderScript=document.createElement('script');
 				loaderScript.setAttribute('src','https://apis.google.com/js/api.js?checkCookie=1');
 				loaderScript.onload=function(){this.onload=function(){};
