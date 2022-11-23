@@ -304,10 +304,10 @@ img.icon {
   font-size: 22px;
   font-weight: lighter;
   font-family: "Courier New";
-  text-align: right;
 }
 #paper-back nav {
-  padding: 100px 25px;
+  padding: 100px 25px 0 0;
+  text-align: right !important;
 }
 #paper-back nav a {
   display: block;
